@@ -6,7 +6,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import emailjs from "emailjs-com";
 
-const Contact = () => {
+const ContactSection = () => {
   const form = useRef();
 
   useEffect(() => {
@@ -96,4 +96,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactSection;

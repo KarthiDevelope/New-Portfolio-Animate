@@ -5,7 +5,7 @@ import Nav from "./Components/nav/Nav";
 import Portfolio from "./Components/portfolio/Portfolio";
 import Footer from "./Components/footer/Footer";
 import About from "./Components/about/About";
-import Contact from "./Components/Contact/Contact";
+import ContactSection from "./Components/contact/Contact";
 import PageLoading from "./assets/loading.json";
 import Lottie from "lottie-react";
 import Skills from "./Components/Skills/Skills";
@@ -37,7 +37,7 @@ export default function App() {
             <Skills />
             <Experience />
             <Portfolio />
-            <Contact />
+            <ContactSection />
             <Footer />
 
           </div>
