@@ -6,7 +6,7 @@ import Portfolio from "./Components/portfolio/Portfolio";
 import Footer from "./Components/footer/Footer";
 import About from "./Components/about/About";
 import ContactSection from "./Components/contact/Contact";
-import PageLoading from "./assets/loading.json";
+import PageLoadings from "./assets/loading.json";
 import Lottie from "lottie-react";
 import Skills from "./Components/Skills/Skills";
 import Experience from "./Components/experience/Experience";
@@ -27,7 +27,7 @@ export default function App() {
       {
         loading ? (
           <div className="Loading">
-            <Lottie className="Loading_gif" animationData={PageLoading} />
+            <Lottie className="Loading_gif" animationData={PageLoadings} />
           </div>
         ) : (
           <div>

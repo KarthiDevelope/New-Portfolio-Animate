@@ -1,13 +1,11 @@
 import React, { useRef, useEffect } from "react";
 import "./about.css";
-import ME from "../../assets/about.gif";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { useInView, useDragControls } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import AboutLottie from "../../assets/About.json"
+import AboutLottie from "../../assets/about.json"
 import Lottie from "lottie-react";
 
 
